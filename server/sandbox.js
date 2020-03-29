@@ -1,7 +1,7 @@
 /* eslint-disable no-console, no-process-exit */
 const imdb = require('./imdb');
 const DENZEL_IMDB_ID = 'nm0000243';
-const METASCORE = 77;
+const METASCORE = 70;
 
 async function start (actor = DENZEL_IMDB_ID, metascore = METASCORE) {
   try {
